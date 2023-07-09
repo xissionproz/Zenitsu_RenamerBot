@@ -43,14 +43,11 @@ async def start(client, message):
         ],[
         InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/IMDbFilmz')
         ],[
-        InlineKeyboardButton('📢 Updates', url='https://t.me/Xission_Bots'),
-        InlineKeyboardButton('🤝 Support', url='https://t.me/XissionBots_Discussion')
-        ],[
         InlineKeyboardButton('⚡️ About', callback_data='about'),
         InlineKeyboardButton('🤕 Help', callback_data='help')
         ],[
-        InlineKeyboardButton("📝Admin-TG", url='https://t.me/Raj_Xission'),
-        InlineKeyboardButton("📝Admin-Insta", url='https://instagram.com/itz_xissionproz')
+        InlineKeyboardButton('📢 Updates', url='https://t.me/Xission_Bots'),
+        InlineKeyboardButton('🤝 Support', url='https://t.me/XissionBots_Discussion')
         ]
         ])
     if START_PIC:
@@ -98,14 +95,11 @@ async def cb_handler(client, query: CallbackQuery):
         ],[
         InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/IMDbFilmz')
         ],[
-        InlineKeyboardButton('📢 Updates', url='https://t.me/Xission_Bots'),
-        InlineKeyboardButton('🤝 Support', url='https://t.me/XissionBots_Discussion')
-        ],[
         InlineKeyboardButton('⚡️ About', callback_data='about'),
         InlineKeyboardButton('🤕 Help', callback_data='help')
         ],[
-        InlineKeyboardButton("📝Admin-TG", url='https://t.me/Raj_Xission'),
-        InlineKeyboardButton("📝Admin-Insta", url='https://instagram.com/itz_xissionproz')
+        InlineKeyboardButton('📢 Updates', url='https://t.me/Xission_Bots'),
+        InlineKeyboardButton('🤝 Support', url='https://t.me/XissionBots_Discussion')
         ]
         ]
                 )
@@ -116,8 +110,6 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
                InlineKeyboardButton("❣️ Contact Admin ❣️", url="https://t.me/Raj_Xission")
-               ],[
-               InlineKeyboardButton("🎬 Join our Movie Channel 🎬", url="https://t.me/IMDbFilmz")
                ],[
                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
@@ -130,7 +122,7 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❣️ Developer ❣️", url="https://www.instagram.com/itz_xissionproz")
+               InlineKeyboardButton("❣️ Developer ❣️", callback_data='dev')
                ],[
                 InlineKeyboardButton("🎬 Join our Movie Channel 🎬", url="https://t.me/IMDbFilmz")
                ],[
