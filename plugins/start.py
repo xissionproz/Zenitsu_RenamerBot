@@ -41,13 +41,13 @@ async def start(client, message):
     button=InlineKeyboardMarkup([[
         InlineKeyboardButton("😈 Developer 😈", callback_data='dev')
         ],[
+        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/IMDbFilmz')
+        ],[
         InlineKeyboardButton('📢 Updates', url='https://t.me/Xission_Bots'),
         InlineKeyboardButton('🤝 Support', url='https://t.me/XissionBots_Discussion')
         ],[
         InlineKeyboardButton('⚡️ About', callback_data='about'),
         InlineKeyboardButton('🤕 Help', callback_data='help')
-        ],[
-        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/IMDbFilmz')
         ],[
         InlineKeyboardButton("📝Admin-TG", url='https://t.me/Raj_Xission'),
         InlineKeyboardButton("📝Admin-Insta", url='https://instagram.com/itz_xissionproz')
@@ -96,13 +96,13 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup( [[
         InlineKeyboardButton("😈 Developer 😈", callback_data='dev')
         ],[
+        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/IMDbFilmz')
+        ],[
         InlineKeyboardButton('📢 Updates', url='https://t.me/Xission_Bots'),
         InlineKeyboardButton('🤝 Support', url='https://t.me/XissionBots_Discussion')
         ],[
         InlineKeyboardButton('⚡️ About', callback_data='about'),
         InlineKeyboardButton('🤕 Help', callback_data='help')
-        ],[
-        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/IMDbFilmz')
         ],[
         InlineKeyboardButton("📝Admin-TG", url='https://t.me/Raj_Xission'),
         InlineKeyboardButton("📝Admin-Insta", url='https://instagram.com/itz_xissionproz')
@@ -146,7 +146,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❣️ Developer ❣️", url="https://www.instagram.com/LazyDeveloperrr")
+               InlineKeyboardButton("❣️ Developer ❣️", url="https://www.instagram.com/itz_xissionproz")
                ],[
                 InlineKeyboardButton("🎬 Join our Movie Channel 🎬", url="https://t.me/IMDbFilmz")
                ],[
