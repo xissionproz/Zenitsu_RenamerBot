@@ -35,15 +35,14 @@ class mr(object):
 
     ABOUT_TXT = """
 ╭───────────⍟
-├🤖 The Name is : {}
-├👑 ADMIN-TG : <a href=https://t.me/Raj_Xission>Xission Proz</a> 
-├👑 Instagram : <a href=https://www.instagram.com/LazyDeveloperrr>C-Insta</a> 
-├📕 LIBRARY : <a href=https://github.com/pyrogram>Pyrogram</a>
-├✏️ LANGUAGE : <a href=https://www.python.org>Python 3</a>
-├💾 DATABASE : <a href=https://cloud.mongodb.com>MongoDB</a>
-├🌀 𝙼𝚈 𝚂𝙴𝚁𝚅𝙴𝚁1 : <a href=https://apps.koyeb.com>Koyeb</a>
-├🌀 𝙼𝚈 𝚂𝙴𝚁𝚅𝙴𝚁2 : <a href=https://dashboard.heroku.com>Heroku</a>
-├📊 BUILD-STATUS : Python v3.6.8               
+├🤖 𝙼𝚈 𝙽𝙰𝙼𝙴 : {}
+├👑 ADMIN-TG : <a href=https://t.me/Raj_Xission>Xɪssɪᴏɴ Pʀᴏᴢ</a> 
+├👑 Instagram : <a href=https://www.instagram.com/itz_xissionproz>Insta</a> 
+├📕 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : <a href=https://github.com/pyrogram>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>
+├✏️ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : <a href=https://www.python.org>𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</a>
+├💾 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 : <a href=https://cloud.mongodb.com>𝙼𝙾𝙽𝙶𝙾-𝙳𝙱</a>
+├🌀 𝙼𝚈 𝚂𝙴𝚁𝚅𝙴𝚁 : 𝙰𝙽𝚈𝚆𝙷𝙴𝚁𝙴
+├📊 𝙱𝚄𝙸𝙻𝙳 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 : Python v3.6.8               
 ╰───────────────⍟
                                 """
     HELP_TXT = """
